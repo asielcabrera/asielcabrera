@@ -7,11 +7,11 @@ on:
 
 jobs:
   update-readme-with-blog:
-  name: "update this repo's README with Latest"
-  runs-on: ubuntu-latest
-  steps:
-  - uses: actions/checkout@v2
-  - uses: gautamkrishnar/blog-post-workflow@master
-    with:
-      feed_list: "https://dev.to/feed/codestackr"
-  
+    name: "update this repo's README with Latest"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: gautamkrishnar/blog-post-workflow@master
+      with:
+        feed_list: "https://dev.to/feed/codestackr"
+    
