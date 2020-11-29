@@ -7,7 +7,7 @@ on:
 
 jobs:
   update-readme-with-blog:
-  name: update this repo's README with Latest
+  name: "update this repo's README with Latest"
   runs-on: ubuntu-latest
   steps:
   - uses: actions/checkout@v2
