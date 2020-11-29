@@ -4,5 +4,5 @@
 - I'm currently learning everything
 - I'm looking to collaborte with other developer 
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST::START -->
+<!-- BLOG-POST-LIST::END -->
