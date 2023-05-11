@@ -14,6 +14,6 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Ejecutar la acción personalizada
-      uses: nombre-de-usuario/nombre-de-repositorio/nombre-de-la-acción@v1
+      uses: asielcabrera/Test_Github_Action@v2
       with:
         arguments: '--opciones' 
