@@ -17,3 +17,4 @@ jobs:
       uses: asielcabrera/Test_Github_Action@v1
       with:
         arguments: '--opciones'
+      shell: bash
