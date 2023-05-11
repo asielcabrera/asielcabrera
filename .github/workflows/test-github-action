@@ -1,0 +1,19 @@
+name: Ejemplo de GitHub Actions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del repositorio
+      uses: actions/checkout@v2
+
+    - name: Ejecutar la acción personalizada
+      uses: nombre-de-usuario/asielcabrera/Test_Github_Action@v1
+      with:
+        arguments: '--opciones'
