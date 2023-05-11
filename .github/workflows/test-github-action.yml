@@ -1,36 +1,19 @@
-name: Ejecutar aplicación de línea de comandos Swift
-description: Esta acción ejecuta una aplicación de línea de comandos Swift
+name: Ejemplo de GitHub Actions
 
-inputs:
-  arguments:
-    description: 'Argumentos para pasar a la aplicación'
-    required: false
-    default: ''
+on:
+  push:
+    branches:
+      - main
 
-runs:
-  using: 'composite'
-  steps:
-    - name: Instalar Swift
-      run: |
-        sudo apt-get update
-        sudo apt-get install swift
-        
-        # Si estás en macOS, puedes usar el siguiente comando para instalar Swift
-        # brew install swift
-        
-      shell: bash
-      
-    - name: Clonar repositorio
-      run: |
-        git clone https://github.com/asielcabrera/Test_Github_Action.git
-      # Opcionalmente, puedes copiar tu código Swift directamente aquí en lugar de clonar un repositorio
-        
-      shell: bash
-        
-    - name: Compilar y ejecutar
-      run: |
-        cd Test_Github_Action
-        swift build
-        .build/debug/Test_Github_Action ${{ inputs.arguments }}
-        
-      shell: bash
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del repositorio
+      uses: actions/checkout@v2
+
+    - name: Ejecutar la acción personalizada
+      uses: nombre-de-usuario/nombre-de-repositorio/nombre-de-la-acción@v1
+      with:
+        arguments: '--opciones'
