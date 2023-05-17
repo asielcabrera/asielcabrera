@@ -16,4 +16,4 @@ jobs:
     - name: Ejecutar la acción personalizada
       uses: asielcabrera/Test_Github_Action@v2
       with:
-        arguments: '--opciones ' 
+        arguments: '--opciones' 
