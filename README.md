@@ -10,5 +10,6 @@
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
-- [post test](https://dev.to/asielcabrera/post-test-2pcp)
+- [Publish Framework](https://swiftzone.dev/articles/publish-framework)
+- [@FocusedBinding](https://swiftzone.dev/articles/focusedBinding)
 <!-- BLOG-POST-LIST:END -->
