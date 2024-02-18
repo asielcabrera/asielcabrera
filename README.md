@@ -19,6 +19,8 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [Publish Framework](https://swiftzone.dev/articles/publish-framework)
+- [@FocusedBinding](https://swiftzone.dev/articles/focusedBinding)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
